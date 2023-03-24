@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="images/snoop-dogg-logo-4BC59EE9BB-seeklogo.com.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1><img src="images/snoop-dogg-logo-4BC59EE9BB-seeklogo.com.png" alt="Snoop"></h1>
+        <h2>Snoop Doggy Dog Image Galary</h2>
+    </header>
+    <main>
+        <!-- Photo Grid -->
+<div class="row"> 
+    <div class="column">
+        <img src="images/1.jpg" alt="">
+        <img src="images/2.jpg" alt="">
+        <img src="images/3.jpg" alt="">
+        <img src="images/4.jpg" alt="">
+        <img src="images/5.jpg" alt="">
+    </div>
+    
+    <div class="column">
+        <img src="images/6.jpg" alt="">
+        <img src="images/7.jpg" alt="">
+        <img src="images/8.jpg" alt="">
+        <img src="images/9.jpg" alt="">
+        <img src="images/10.jpg" alt="">
+
+    </div> 
+     
+    <div class="column">
+        <img src="images/11.jpg" alt="">
+        <img src="images/12.jpg" alt="">
+        <img src="images/13.jpg" alt="">
+        <img src="images/14.jpg" alt="">
+        <img src="images/15.jpg" alt="">
+
+    </div>
+    
+    <div class="column">
+        <img src="images/16.jpg" alt="">
+        <img src="images/17.jpg" alt="">
+        <img src="images/18.jpg" alt="">
+        <img src="images/19.jpg" alt="">
+        <img src="images/20.jpg" alt="">
+    </div>
+  </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyright"></span>Nathan Innerfield</p>
+    </footer>
+    
+     <!-- Javascript - Get Current Year for the Footer -->
+     <script>
+        window.onload = function() {
+            var d = new Date();
+            document.getElementById("copyright").innerHTML = d.getFullYear();
+        }
+    </script>
+    
+</body>
+</html>
